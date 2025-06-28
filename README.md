@@ -1,46 +1,35 @@
+<h1>🖐️ Hand Gesture Volume Control</h1>
 
-
-<h1>🖐️ Hand Volume Control</h1>
-
-<p>This project is a fun Python application that uses your webcam to detect your hand and control the system volume based on the distance between your thumb and index finger. It uses <code>MediaPipe</code> for hand tracking and <code>PyAutoGUI</code> to press the volume up/down keys.</p>
+<p>Control your system volume using simple hand gestures captured by your webcam.<br>
+Move your thumb and index finger apart to increase volume, bring them closer to decrease it.</p>
 
 <h2>✨ Features</h2>
 <ul>
-    <li>Real-time hand tracking with landmarks</li>
-    <li>Visually appealing overlay with circles, lines, and distance bar</li>
-    <li>Dynamic volume control: move your fingers apart to increase volume, bring them closer to decrease</li>
-    <li>Simple and interactive GUI</li>
+  <li>Real-time hand tracking with MediaPipe</li>
+  <li>Visual overlay showing landmarks, connecting line, and distance bar</li>
+  <li>Automatic volume up/down based on finger distance</li>
+  <li>Simple, lightweight, and fun to use</li>
 </ul>
 
-<h2>⚙️ Requirements</h2>
-<p>Before running the script, make sure you have these Python libraries installed:</p>
-<pre><code>pip install mediapipe pyautogui opencv-python</code></pre>
-
-<h2>▶️ How to Run</h2>
-<ol>
-    <li>Clone or download this repository</li>
-    <li>Open terminal / PowerShell and navigate to the project directory:
-    <pre><code>cd MentorMatch/volume</code></pre></li>
-    <li>Run the script:
-    <pre><code>python main.py</code></pre></li>
-    <li>Allow camera access if prompted</li>
-</ol>
-
-<h2>💻 How It Works</h2>
+<h2>⚙️ Technologies Used</h2>
 <ul>
-    <li>The webcam captures frames in real time</li>
-    <li>MediaPipe detects hand landmarks, focusing on your thumb (id 4) and index fingertip (id 8)</li>
-    <li>A line is drawn between them, and the distance is calculated</li>
-    <li>If the distance is greater than 50px → <span class="highlight">volume up</span></li>
-    <li>If the distance is less than or equal to 50px → <span class="highlight">volume down</span></li>
-    <li>Visual feedback: colored circles on fingertips, distance bar, and text overlay</li>
+  <li>Python</li>
+  <li>OpenCV</li>
+  <li>MediaPipe</li>
+  <li>PyAutoGUI</li>
 </ul>
 
+<h2>📦 Requirements</h2>
+<p>Install the following Python packages:</p>
+<pre><code>mediapipe
+opencv-python
+pyautogui</code></pre>
 
+<h2>📝 About</h2>
+<p>This project was created for fun and as a demo of computer vision + gesture control in Python.<br>
+Feel free to explore, modify, and enhance it!</p>
 
-<h2>📄 License</h2>
-<p>This project is for educational purposes. Feel free to modify and improve it!</p>
+<p>⭐ <strong>Repo:</strong> <a href="https://github.com/DevByPurva/Hand_Gesture_Volume_Control" target="_blank">Hand Gesture Volume Control</a></p>
 
 </body>
 </html>
-# Hand_Gesture_Volume_Control
