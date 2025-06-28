@@ -36,8 +36,7 @@
     <li>Visual feedback: colored circles on fingertips, distance bar, and text overlay</li>
 </ul>
 
-<h2>📸 Screenshot / Preview</h2>
-<p>*(Add a screenshot of your running application here)*</p>
+
 
 <h2>📄 License</h2>
 <p>This project is for educational purposes. Feel free to modify and improve it!</p>
